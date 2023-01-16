@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:padding="5dp"
+        android:stretchColumns="1,2,3,4,5,6">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/tvId"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:hint="ID" />
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:hint="name" />
+
+            <TextView
+                android:id="@+id/tvBan"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:hint="ban" />
+
+            <TextView
+                android:id="@+id/tvEng"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:hint="eng" />
+
+            <TextView
+                android:id="@+id/tvPhy"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:hint="phy" />
+
+            <TextView
+                android:id="@+id/tvMath"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:hint="math" />
+
+
+        </TableRow>
+
+    </TableLayout>
+</layout>

@@ -14,42 +14,60 @@
         tools:context=".MainActivity">
 
         <EditText
-            android:id="@+id/etStd_name"
+            android:id="@+id/etSubjectName"
             android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:autofillHints=""
-            android:hint="student name"
-            android:padding="5dp"
-            android:inputType="text"
-            android:textSize="17sp"
             android:layout_marginTop="200dp"
+            android:autofillHints=""
+            android:hint="your subject"
+            android:padding="5dp"
+            android:textSize="17sp"
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:id="@+id/etS_id"
+            android:id="@+id/etMark"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginTop="15dp"
-            android:hint="student id"
+            android:hint="your mark"
             android:padding="5dp"
             android:textSize="17sp"
-            android:inputType="number"
-            app:layout_constraintTop_toBottomOf="@+id/etStd_name" />
+            app:layout_constraintTop_toBottomOf="@+id/etSubjectName" />
+
+        <EditText
+            android:id="@+id/etOutOf"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="15dp"
+            android:hint="Out of ?"
+            android:padding="5dp"
+            android:textSize="17sp"
+            app:layout_constraintTop_toBottomOf="@+id/etMark" />
 
         <Button
-            android:id="@+id/btnSave"
+            android:id="@+id/btnSaveRA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:backgroundTint="#E91E63"
+            android:padding="5dp"
+            android:text="save"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <Button
+            android:id="@+id/btnShowResult"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#E91E63"
             android:padding="5dp"
-            android:text="save"
-            android:layout_marginBottom="100dp"
+            android:text="show result"
             android:textColor="@color/white"
             android:textSize="17sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"/>
-
-
+            app:layout_constraintTop_toBottomOf="@+id/btnSaveRA" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

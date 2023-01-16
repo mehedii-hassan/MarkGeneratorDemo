@@ -12,6 +12,12 @@
         android:theme="@style/Theme.MarkGeneratorDemo"
         tools:targetApi="31">
         <activity
+            android:name=".ShowResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResultActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

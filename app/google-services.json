@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "396764487708",
+    "project_id": "markgeneratordemo",
+    "storage_bucket": "markgeneratordemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396764487708:android:716cf31f5b770b00517fd9",
+        "android_client_info": {
+          "package_name": "com.example.markgeneratordemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396764487708-vih7h9em1kqkuh9b07m0p70kik698m6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBkCi6bgbM63OXGXbHVVmCdrDDyabn8ew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396764487708-vih7h9em1kqkuh9b07m0p70kik698m6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
