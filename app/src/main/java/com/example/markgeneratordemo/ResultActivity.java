@@ -83,8 +83,10 @@ public class ResultActivity extends AppCompatActivity {
                 assert key != null;
                 databaseReferenceMath.child(key).setValue(model);
                 Toast.makeText(this, "Successfully added", Toast.LENGTH_SHORT).show();
-
                 break;
+
+            default:
+                Toast.makeText(this, "Enter bangla,english,math or physics", Toast.LENGTH_SHORT).show();
         }
 
     }

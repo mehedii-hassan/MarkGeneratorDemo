@@ -5,6 +5,9 @@ public class ResultModel {
     private int mark;
     private int outOf;
 
+    public ResultModel() {
+    }
+
     public ResultModel(String subject, int mark, int outOf) {
         this.subject = subject;
         this.mark = mark;
